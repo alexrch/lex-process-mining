@@ -4,7 +4,8 @@ Aplicación web estática para explorar procesos de compras y recepción mediant
 
 ## Estado actual
 
-- Prototipo funcional basado en datos sintéticos.
+- Prototipo web inicial incorporado en `index.html`.
+- Datos sintéticos generados en el navegador.
 - Mapa de proceso navegable con zoom y desplazamiento.
 - Filtros por proveedor, categoría, resultado y periodo.
 - Selección de actividades y transiciones para explorar órdenes.
@@ -13,25 +14,30 @@ Aplicación web estática para explorar procesos de compras y recepción mediant
 
 ## Ejecutar localmente
 
-Cuando `index.html` esté en el directorio raíz, ábrelo directamente en un navegador moderno. No requiere instalación ni servidor para la demo estática.
+Abre `index.html` en un navegador moderno. La demo estática no requiere instalación ni servidor.
 
 ## Datos y privacidad
 
-Los datos actuales son ficticios y se generan en el navegador. No se deben incorporar credenciales, secretos ni datos personales o productivos al repositorio.
+Los datos actuales son ficticios y se generan en el navegador. No incorpores credenciales, secretos ni datos personales o productivos al repositorio.
 
 ## Flujo de cambios
 
-1. Crear una rama por mejora.
-2. Desarrollar y validar el cambio.
+1. Crear una rama por requisito o mejora.
+2. Desarrollar y validar el cambio en esa rama.
 3. Abrir un Pull Request hacia `main`.
 4. Revisar diferencias y probar la aplicación antes de integrar.
 
+Convención de ramas: `tipo/numero-descripcion-corta`, por ejemplo `feat/001-initial-web-app`.
+
+Convención de commits: `tipo(area): descripción`, por ejemplo `feat(graph): improve process map navigation`.
+
 ## Publicación
 
-El objetivo es publicar la aplicación con GitHub Pages. La disponibilidad de Pages para este repositorio privado depende del plan y la configuración de GitHub. Antes de activar la publicación, confirmar que el sitio tendrá el nivel de acceso adecuado.
+La publicación con GitHub Pages está pendiente de configuración y validación. La disponibilidad de Pages para este repositorio privado depende del plan y la configuración de GitHub; confirma también el nivel de acceso del sitio publicado antes de activarlo.
 
 ## Próximos pasos
 
-- Incorporar el prototipo actual como `index.html`.
-- Verificar interacciones y diseño desde Pages.
-- Definir la arquitectura de adaptadores de datos para permitir futuras fuentes como CSV/Excel y Odoo.
+- Revisar el prototipo desde la rama de trabajo y validar sus interacciones.
+- Abrir un Pull Request para integrar la aplicación en `main`.
+- Configurar y probar GitHub Pages.
+- Diseñar adaptadores de datos para futuras fuentes como CSV/Excel y Odoo.
